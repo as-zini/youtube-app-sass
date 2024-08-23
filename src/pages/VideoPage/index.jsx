@@ -4,7 +4,7 @@ import YouTube from 'react-youtube';
 import { SidebarContext } from '../../context/SidebarContext';
 
 const VideoPage = () => {
-  //Youtube 동영상을 재생시키는 코드
+  //Youtube 동영상 재생시키는 코드
   const {videoId} = useParams();
   let location = useLocation();
   const {state: currentVideo} = location;
